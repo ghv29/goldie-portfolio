@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LangProvider } from "@/lib/LangContext";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Goldie Vaghela — Data Analyst",
@@ -21,6 +22,7 @@ export default function RootLayout({
       </head>
       <body className="font-body overflow-x-hidden">
         <LangProvider>{children}</LangProvider>
+        <Analytics />
       </body>
     </html>
   );
