@@ -19,9 +19,9 @@ export const t = {
       tagline:
         "Five years across Tesla's Gigafactory, Amazon logistics, and research institutes - now applying that real-world domain knowledge to data. Python · SQL · Tableau · ML.",
       workAuth: "EU work authorisation (no sponsorship needed)",
-      cta1: "View Experience",
+      cta1: "View Projects",
       cta2: "GitHub",
-      cta3: "Download Resume",
+      cta3: "Download CV",
       scroll: "scroll",
     },
 
@@ -131,7 +131,7 @@ export const t = {
       tagline:
         "Fünf Jahre in Teslas Gigafactory, Amazon-Logistik und Forschungsinstituten - jetzt bringe ich dieses praxisnahe Domänenwissen in die Datenanalyse ein. Python · SQL · Tableau · ML.",
       workAuth: "Deutsche Aufenthaltserlaubnis (keine Arbeitgebersponsierung nötig)",
-      cta1: "Erfahrung ansehen",
+      cta1: "Projekte ansehen",
       cta2: "GitHub",
       cta3: "Lebenslauf herunterladen",
       scroll: "scrollen",

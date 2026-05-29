@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import SplashScreen from "@/components/SplashScreen";
-import AnimatedBackground from "@/components/AnimatedBackground";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Story from "@/components/Story";
@@ -22,9 +21,8 @@ export default function Home() {
 
       {splashDone && (
         <>
-          <AnimatedBackground />
           <Navigation />
-          <main className="relative z-10">
+          <main className="bg-[#FAFAF8]">
             <Hero />
             <Story />
             <About />
