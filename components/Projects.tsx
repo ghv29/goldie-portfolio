@@ -9,13 +9,13 @@ const FEATURED = [
   {
     key: "stellenradar" as const,
     result: "ETL + NLP job-search pipeline",
-    image: "/project-stellenradar.svg",
+    image: "/project-stellenradar.png",
     imageAlt: "StellenRadar dashboard — job matches and NLP skill extraction",
   },
   {
     key: "turbofan" as const,
     result: "Predicted engine failure on NASA CMAPSS data",
-    image: "/project-turbofan.svg",
+    image: "/project-turbofan.png",
     imageAlt: "Turbofan predictive maintenance — fleet health dashboard",
   },
 ];
